@@ -43,13 +43,34 @@ Borrow out = A'Bin + A'B + BBin
 Write the detailed procedure here
 
 **Program:**
+EXPERIMENT 3:
+i)FULL ADDER
 
+module fa(a,b,cin,sum,carry);
+input a,b,cin;
+output sum,carry;
+assign sum=( (a ^ b)^cin);
+assign carry= ( (a & b)| ( cin &(a ^ b )));
+endmodule
+
+ii)FULL SUBTRACTOR
+
+module fs(a,b,bin,difference,borrow);
+input a,b,bin;
+output difference,borrow;
+assign difference= ( (a ^ b)^bin);
+assign borrow= ( ( a & b)| ( bin & ((a ^ b ))));
+endmodule
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
 */
 
 **RTL Schematic**
+<img width="694" height="289" alt="Screenshot 2025-10-15 153315" src="https://github.com/user-attachments/assets/7956801d-33c3-4e06-9b21-50fdaa41cd07" />
+<img width="667" height="325" alt="Screenshot 2025-10-15 153617" src="https://github.com/user-attachments/assets/f15f0257-dce4-452d-a94c-4531bbbd1f7a" />
 
 **Output Timing Waveform**
+![sav 3 1](https://github.com/user-attachments/assets/4710e1d7-2beb-4da2-be77-b8271f803108)
+![sav3 2](https://github.com/user-attachments/assets/ff34beaa-e4e0-4605-8e91-d8cb5b29b11d)
 
 **Result:**
 
