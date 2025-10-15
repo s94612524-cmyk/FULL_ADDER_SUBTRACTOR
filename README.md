@@ -64,7 +64,9 @@ endmodule
 */
 
 **RTL Schematic**
-<img width="735" height="279" alt="Screenshot 2025-10-07 203109" src="https://github.com/user-attachments/assets/0c13ba4d-2b45-4c8f-804d-e60e2e9b95cf" />
+
+<img width="694" height="289" alt="Screenshot 2025-10-15 153315" src="https://github.com/user-attachments/assets/a8071603-e396-4b00-9fb1-43a690a155bb" />
+<img width="667" height="325" alt="Screenshot 2025-10-15 153617" src="https://github.com/user-attachments/assets/fd65f419-c9cc-446e-8f25-a7a4844fdf6d" />
 
 **Output Timing Waveform**
 ![sav 3 1](https://github.com/user-attachments/assets/e6e04687-003a-4174-a4dd-f074678946a1)
